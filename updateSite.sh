@@ -1,3 +1,4 @@
+source ./stackInfo.txt
 bash ./checkTemplate.sh && \
-aws cloudformation update-stack --stack-name exampleSiteUdacity --template-body file://formation.yml
+aws cloudformation update-stack --stack-name $StackName --template-body file://template.yml
 bash ./describeStack.sh
