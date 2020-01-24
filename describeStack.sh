@@ -1,1 +1,1 @@
-aws cloudformation describe-stacks --stack-name exampleSiteUdacity 
+aws cloudformation describe-stacks --stack-name exampleStackName
